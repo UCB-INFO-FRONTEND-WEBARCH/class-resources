@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML & CSS Examples Lab</title>
+  <link rel="stylesheet" href="./example1.css" />
+</head>
+<body>
+  <header class="site-header">
+      <h1>INFO 153/253A Lab2</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>1. Box Model</h2>
+        <div class="box-model content-box">
+          <p>I am contexnt-box</p>
+          <p>Width = ?</p>
+        </div>
+        <div class="box-model border-box">
+          <p>I am border-box</p>
+          <p>Width = ?</p>
+        </div>
+    </section>
+
+    <section>
+      <h2>2. Selector</h2>
+      <article class="class-selector another-class-selector" id="id-selector">
+        <h3>Article Title</h3>
+        <p>I am a child.</p>
+        <div>
+          <p>I am a grand child</p>
+          <div>
+            <p>I am a great grand child</p>
+          </div>
+        </div>
+      </article>
+      <p>I am sibling, Alan</p>
+      <p>I am sibling, Chole</p>
+    </section>
+
+    <section>
+      <h2>3. Display</h2>
+      <div class="display block">I am block</div> <!-- ex: <div>, <p>, <section>, <h1>~<h6> default. --> 
+      <div class="display inline">I am inline </div> <!-- ex: <span>, <a>, <em> default  -->
+      <div class="display inline-block">I am inline-block</div>  <!-- ex: button, icon  -->
+    </section>
+  </main>
+</body>
+</html>
